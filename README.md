@@ -47,6 +47,7 @@ or
 we must add a table called "tracking_likes", it must have the foreign keys of authorized user ID, property ID, ID, date of creation and date of modification, as a plus I would add a comment field so that the client tells us why Did you like the property, or if so why did you dislike it?
 
 **SQL code to create table Tracking likes**
+"""SQL
 CREATE TABLE TRACKING_LIKES(
     id int(11) NOT NULL  AUTO_INCREMENT,
     auth_user_id int(11) NOT NULL,
@@ -59,7 +60,7 @@ CREATE TABLE TRACKING_LIKES(
     FOREIGN KEY (auth_user_id) REFERENCES AUTH_USER(id),
     FOREIGN KEY (property_id) REFERENCES PROPERTY(id),
 );
-
+"""
 **Diagram**
 
 
