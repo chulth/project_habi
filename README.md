@@ -10,7 +10,7 @@ Download to code with git clone command and run main file, for example
 - `source venv/bin/activate`
 - `cd project_habi`
 - `pip install -r requirements.txt`
-- `python3 project_habi/main.py`
+- `python3 main.py`
 
 ## Build with  🛠️
 --------------------------------------------
