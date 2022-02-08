@@ -1,7 +1,20 @@
-# project_habi
+# Project Habi
 technical test Habi
 
+
+## Deploy 📦
+--------------------------------------------
+Download to code with git clone command and run main file, for exmaple  `python3 project_habi/main.py`
+
+## Build with  🛠️
+--------------------------------------------
+`Python==3.8.10`
+
 ## Usage
+--------------------------------------------
+The service run in port 8080 to localhost and you can  use query parameter like filters as example:
+`'http://127.0.0.1:8080/?city='medellin'&year=2000'`
+
 
 All responses will have the form:
 
@@ -41,7 +54,7 @@ Handle the exceptions
 
 `I Use query parameters in place of json body with parameters to filter, because is a good practice.`
 `Example to the endpoint with queryparameters
-'http://127.0.0.1:8080/?city='bogota'&year=2020&state=3'`
+'?city='bogota'&year=2020&state=3'`
 
 
 ***second requirement***
@@ -72,5 +85,9 @@ CREATE TABLE TRACKING_LIKES(
 
 ![Tracking_likes](https://user-images.githubusercontent.com/30079428/152918003-d408d2b0-e71f-4707-a7ce-2c0c7e1fc5d7.jpg)
 
+
+## Author ✒️
+------------------------------------------
+John Bulla 
 
 
