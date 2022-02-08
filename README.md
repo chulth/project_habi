@@ -4,7 +4,8 @@ technical test Habi
 
 ## Deploy 📦
 --------------------------------------------
-Download to code with git clone command and run main file, for exmaple  
+Download to code with git clone command and run main file, for example
+- `git@github.com:chulth/-project_habi.git`
 - `python3 -m venv venv`
 - `source venv/bin/active`
 - `pip install -r requirements.txt`
