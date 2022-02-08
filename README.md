@@ -10,12 +10,12 @@ Download to code with git clone command and run main file, for example
 - `source venv/bin/activate`
 - `cd project_habi`
 - `pip install -r requirements.txt`
-- `Generate .env file with 
-    export DB_HOST=
-    export DB_USER=
-    export DB_PASSWORD=
-    export DB_NAME=
-    export DB_PORT=`
+- `Generate directory settings and create .env file with :`
+    `export DB_HOST=`
+    `export DB_USER=`
+    `export DB_PASSWORD=`
+    `export DB_NAME=`
+    `export DB_PORT=`
 - `python3 main.py`
 
 ## Build with  🛠️
