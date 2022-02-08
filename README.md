@@ -5,7 +5,7 @@ technical test Habi
 
 All responses will have the form:
 
-'''json
+;;;json
 [
     {
         "address": "calle 95 # 78 - 49", "description": "hermoso acabado, listo para estrenar", "price": 120000000, "city": "bogota", "state": 3
@@ -19,7 +19,7 @@ or
          "message": "Description of whats happend"
          }  
 ]
-'''
+;;;
 
 **Functional Requirements**
 
