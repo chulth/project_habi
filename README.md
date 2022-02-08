@@ -33,13 +33,15 @@ Handle the exceptions
 **Extra Points**
 
 - Do the unit tests
--Improve model of current database structure
+- Improve model of current database structure
 
 
 
 **Issues**
 
 `I Use query parameters in place of json body with parameters to filter, because is a good practice.`
+`Example to the endpoint with queryparameters`
+`'http://127.0.0.1:8080/?city='bogota'&year=2020&state=3'`
 
 
 ***second requirement***
