@@ -25,3 +25,6 @@ All responses will have the form
 
 `Do the unit tests`
 `Improve model of current database structure`
+**Issues**
+
+`I Use query parameters in place of json body with parameters to filter`
