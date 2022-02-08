@@ -19,3 +19,7 @@ FILTER_CITY_QUERY = (
 FILTER_YEAR_QUERY = (
                 "SELECT * FROM property where year = {0};"
                 )
+NO_FOUND_MATCHING = {"msg": "There are no results matching the filters"}
+KEYS_TO_FORMATING_RESPONSE = [
+        "address", "description", "price", "city", "state"
+        ]
