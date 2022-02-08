@@ -48,7 +48,7 @@ we must add a table called "tracking_likes", it must have the foreign keys of au
 
 **SQL code to create table Tracking likes**
 
-'''SQL
+~~~~sql
 
 CREATE TABLE TRACKING_LIKES(
     id int(11) NOT NULL  AUTO_INCREMENT,
@@ -62,7 +62,9 @@ CREATE TABLE TRACKING_LIKES(
     FOREIGN KEY (auth_user_id) REFERENCES AUTH_USER(id),
     FOREIGN KEY (property_id) REFERENCES PROPERTY(id),
 );
-'''
+~~~~sql
+
+
 **Diagram**
 
 
