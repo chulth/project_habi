@@ -62,7 +62,7 @@ CREATE TABLE TRACKING_LIKES(
     FOREIGN KEY (auth_user_id) REFERENCES AUTH_USER(id),
     FOREIGN KEY (property_id) REFERENCES PROPERTY(id),
 );
-~~~~sql
+~~~~
 
 
 **Diagram**
