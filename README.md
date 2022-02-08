@@ -8,6 +8,7 @@ Download to code with git clone command and run main file, for example
 - `git clone git@github.com:chulth/project_habi.git`
 - `python3 -m venv venv`
 - `source venv/bin/activate`
+- `cd project_habi`
 - `pip install -r requirements.txt`
 - `python3 project_habi/main.py`
 
